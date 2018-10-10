@@ -1,0 +1,14 @@
+/*Selector universal
+* {
+    color: red;
+}
+*/
+
+/* Selector de etiqueta*/
+h1 {
+    color: blue;
+}
+
+div p {
+    font-size: 20px;
+}
