@@ -108,3 +108,65 @@ footer .redes a {
 footer .redes a:hover {
   text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  aside .ad {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  header .menu {
+    width: 100%;
+    background: rgba(255, 255, 255, .2);
+    text-align: center;
+    padding: 20px;
+  }
+
+  header .menu a {
+    margin: 0 20px;
+  }
+
+  header .logo {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .autor {
+    order: 2;
+  }
+
+  footer .redes {
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  footer .redes a {
+    margin-left: 20px;
+
+  }
+
+  @media screen and (max-width: 400px) {
+    aside {
+      display: none;
+    }
+  }
+}
