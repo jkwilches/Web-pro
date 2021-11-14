@@ -1,5 +1,13 @@
 {
-    "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "on"
+  "workbench.settings.editor": "json",
+  "editor.fontSize": 13,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "onFocusChange",
+  "editor.renderWhitespace": "all",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.colorTheme": "One Dark Pro",
+  "diffEditor.wordWrap": "on",
+  "editor.linkedEditing": true
 }
