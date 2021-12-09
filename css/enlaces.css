@@ -1,13 +1,24 @@
 a {
-    font-size: 20px;
-    text-decoration: none;
+  font-size: 20px;
+  text-decoration: none;
 }
-
+/* Estado del enlace mientras se pasa el mouse por encima */
 a:hover {
-    background:#f9a03f;
-    color:#fff
+  background: #f9a03f;
+  color: #fff;
 }
 
+/* Enlace sin visitar */
 a:link {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+/* Enlace visitado */
+a:visited {
+  color: rgb(221, 60, 213);
+}
+
+/* Estado del enlace cuando se esta haciendo click */
+a:active {
+  text-decoration: underline;
 }

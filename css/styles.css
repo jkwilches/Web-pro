@@ -6,17 +6,21 @@
 
 /* Selector de etiqueta*/
 h1 {
-    color: blue;
+  color: blue;
 }
 
 div p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.grande{
-    font-size: 28px;
+p a {
+  color: blueviolet;
 }
 
-#rojo{
-    color: red;
+.grande {
+  font-size: 28px;
+}
+
+#rojo {
+  color: red;
 }

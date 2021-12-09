@@ -1,13 +1,14 @@
+/* Este selector es para uso directo de las etiquetas */
 div > p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-body{
-    font-size: 20px;
-    color: blue;
+body {
+  font-size: 20px;
+  color: blue;
 }
 
-article{
-    font-size: 12px;
-    color: black;
+article {
+  font-size: 12px;
+  color: black;
 }
