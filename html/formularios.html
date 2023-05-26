@@ -22,7 +22,18 @@
       <br />
       <br />
 
-      <input type="email" placeholder="Correo:" name="correo" />
+      <label for="fecha">Fecha de inicio</label>
+      <input type="date" id="fecha" name="fecha" required />
+      <br />
+      <br />
+
+      <label for="Horario">Horario</label>
+      <input type="time" id="Horario" name="Horario" required />
+      <br />
+      <br />
+
+      <label for="calendario">Calendario complejo</label>
+      <input type="datetime-local" name="calendario" required />
       <br />
       <br />
 
@@ -59,6 +70,75 @@
       <br />
 
       <input type="submit" value="Enviar" />
+    </form>
+
+    <br /><br />
+
+    <form action="">
+      <label for="nombre">
+        <span>¿Cúal es tu nombre?</span>
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Tu nombre"
+          id="nombre"
+          autocomplete="name"
+          required
+        />
+      </label>
+
+      <label for="correo">
+        <span>¿Cúal es tu correo?</span>
+        <input
+          type="email"
+          name="correo"
+          placeholder="Tu correo"
+          id="correo"
+          autocomplete="email"
+          required
+        />
+      </label>
+
+      <label for="Pais">
+        <span>¿Cúal es tu pais?</span>
+        <input
+          type="text"
+          name="pais"
+          placeholder=""
+          id="pais"
+          autocomplete="country"
+          required
+        />
+      </label>
+
+      <label for="cp">
+        <span>¿Cúal es tu Código postal?</span>
+        <input
+          type="text"
+          name="cp"
+          placeholder=""
+          id="cp"
+          autocomplete="postal-code"
+          required
+        />
+      </label>
+
+      <input type="submit" value="Enviar" />
+
+      <br /><br />
+
+      <!-- Input selector predictivo -->
+      <span>Lista de cursos</span>
+      <input list="cursos" />
+      <datalist id="cursos">
+        <option value="JavaScript"></option>
+        <option value="HTMLS"></option>
+        <option value="CSS3"></option>
+        <option value="Web Standars"></option>
+      </datalist>
+
+      <input type="submit" value="Que color" />
+      <button type="submit">Enviar</button>
     </form>
   </body>
 </html>
